@@ -1,7 +1,7 @@
 How to use:
 
   1. Back up your current ~/.bashrc, then replace it with this repo's `bashrc.sh` file.
-  2. Put this repo's bashrc_parts directory in your home directory, i.e. ~/bashrc_parts.
+  2. Using `cp -r`, put this repo's bashrc_parts directory in your home directory, i.e. ~/bashrc_parts.
   3. Rename `bashrc_parts/bashrc-secret.sh.example` to `bashrc_parts/bashrc-secret.sh`. 
   3. Run `bash` to load changes.
 
