@@ -6,7 +6,12 @@ How to use:
   3. Rename `bashrc_parts/bashrc-secret.sh.example` to `bashrc_parts/bashrc-secret.sh`. 
   3. Run `bash` to load changes.
 
+
 How these files are organized:
+
+`bashrc.sh` loads up all files listed below. The nice thing about separating bashrc content into multiple files
+is that it becomes easier to check conflicts. To stop including some set of instructions, just comment out the
+`source <filename>` call. 
 
 ```
 bashrc_parts/bashrc-secret.sh (Secrets)
