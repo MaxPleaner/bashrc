@@ -1,3 +1,4 @@
+
 How to use:
 
   1. Back up your current ~/.bashrc, then replace it with this repo's `bashrc.sh` file.
