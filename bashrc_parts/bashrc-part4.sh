@@ -35,8 +35,6 @@
      function gphm { 
      git push heroku master 
      }
-     git log 
-     }
      function gpu { 
      git pull 
      }
