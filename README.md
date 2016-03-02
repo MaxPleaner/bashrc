@@ -12,6 +12,7 @@ bashrc_parts/bashrc-secret.sh (Secrets)
 - This file is ignored by git, but bashrc.sh expects it to exist.
 - Ensure `bashrc-secret.sh.example` is copied to `bashrc-secret.sh` in the ~/bashrc_parts directory
 - Add password, access tokens and such here.
+```
 
 ```
 bashrc_parts/bashrc-part1.sh (Prioritized setup)
