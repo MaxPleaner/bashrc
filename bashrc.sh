@@ -16,7 +16,7 @@ source $BASHRC_PARTS_DIR/bashrc/bashrc_parts/bashrc-part1.sh
 source $BASHRC_PARTS_DIR/bashrc/bashrc_parts/bashrc-part2.sh
 
 ## =========== variable exports ==============================
-# - for others' programs: IRC_CLIENT, AWS Config, OpenSSL, Golan
+# - for others' programs: IRC_CLIENT, AWS Config, OpenSSL, Golang
 # - for my programs: ruby-macros
 # - access Tokens (dependent on bash-secrets.sh)
 source $BASHRC_PARTS_DIR/bashrc/bashrc_parts/bashrc-part3.sh

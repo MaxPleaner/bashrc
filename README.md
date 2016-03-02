@@ -27,7 +27,7 @@ bashrc_parts/bashrc-part2.sh (Path additions)
 
 ```
 bashrc_parts/bashrc-part3.sh (Variable exports)
-- for others' programs: IRC_CLIENT, AWS Config, OpenSSL, Golan
+- for others' programs: IRC_CLIENT, AWS Config, OpenSSL, Golang
 - for my programs: ruby-macros
 - access Tokens (dependent on bash-secrets.sh)
 ```
