@@ -177,7 +177,7 @@
 
 # Lazy abbreviations (some of these might be redundant)
    function zeya { 
-   zeya.py 
+    zeya.py 
    }
    function skype { 
     /home/max/bin/skype

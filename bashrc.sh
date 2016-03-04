@@ -11,9 +11,8 @@ source $BASHRC_PARTS_DIR/bashrc/bashrc_parts/bashrc-secret.sh
 source $BASHRC_PARTS_DIR/bashrc/bashrc_parts/bashrc-part1.sh
 
 ## =========== PATH additions ================================
-# - for others' programs: heroku, hub, zeya, clang, mruby, cdnjs, xiki
-# - for my programs: tmsu-ruby, job_tracker_cli, ruby-macros
-source $BASHRC_PARTS_DIR/bashrc/bashrc_parts/bashrc-part2.sh
+# These do not work when sourced from a file. See them
+# appended to this file.
 
 ## =========== variable exports ==============================
 # - for others' programs: IRC_CLIENT, AWS Config, OpenSSL, Golang
@@ -37,6 +36,31 @@ source $BASHRC_PARTS_DIR/bashrc/bashrc_parts/bashrc-part4.sh
 # - Others' programs: 'extract' function
 source $BASHRC_PARTS_DIR/bashrc/bashrc_parts/bashrc-part5.sh
 
+
+
+
+
+
+
+
+
+# ============================================
+# ========= PATH additions ===================
+# ============================================
+
+# Other people's programs:
+    export PATH="/usr/local/heroku/bin:$PATH"
+    export PATH=$PATH:/home/max/hub-linux-amd64-2/hub-linux-amd64-2.2.2/bin/
+    export PATH=$PATH:/home/max/zeya
+    export PATH=$PATH:/home/max/Desktop/c/clang+llvm-3.7.1-x86_64-linux-gnu-debian8/bin/
+    export PATH=$PATH:/home/max/Desktop/gems/mruby/mruby-1.2.0/bin
+    export PATH=$PATH:/home/max/Desktop/cdn/cjdns/
+    export PATH=$PATH:/home/max/xiki-master/bin
+
+# My programs:
+    export PATH=$PATH:/home/max/tmsu-ruby
+    export PATH=$PATH:/home/max/job_tracker_cli/
+    export PATH=$PATH:/home/max/Desktop/macros/ruby-macros
 
 
 

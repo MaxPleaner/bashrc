@@ -3,6 +3,7 @@
 # ========= Variable Exports =================
 # ============================================
 
+
 # IRC
     export IRC_CLIENT='irssi'
 
@@ -26,7 +27,7 @@
    export MONKEY_LEARN_TOKEN=$SecretMONKEY_LEARN_TOKEN
 
 # My programs
-     export MACROS_PATH=/home/max/Desktop/macros/ruby-macros
+     export MACROS_PATH=/home/max/Desktop/my_apps/ruby-macros
 
 # Unused
     # Set vcprompt executable path for scm advance info in prompt (demula theme)
